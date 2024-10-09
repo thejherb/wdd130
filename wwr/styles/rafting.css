@@ -1,0 +1,53 @@
+:root {
+    --color1: #395E66;
+    --color2: #447604;
+    --color3: #C6B9CD;
+    --color4: #6DB1BF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+ max-width: 90%;
+}
+
+.hero img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.happy img{
+    position: absolute;
+    top:60%;
+    width: 200px;
+    padding-left: 15rem;
+    padding-top: 1rem;
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+    opacity: 0.9;
+    background-color: #447604;
+}
+
+.happy p{
+    position: absolute;
+    top:60%;
+    left: 14%;
+    width: 13rem;
+    height: auto;
+    border: solid;
+    text-wrap: wrap;
+}
+
+.hero h1{
+    color: var(--color3);
+    background-color: #395E66;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
